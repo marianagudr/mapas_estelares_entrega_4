@@ -1,0 +1,183 @@
+@charset "UTF-8";
+h1 {
+  color: #1f6e72;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 2.6rem;
+  text-align: center;
+  margin: 20px 10px;
+  padding: 20px 10px; }
+
+.subtitulos {
+  color: #1f6e72;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 2.2rem;
+  text-align: center;
+  margin: 20px 10px;
+  padding: 20px 10px; }
+
+.parrafos {
+  margin: 10px 0px 15px 0px;
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #222668; }
+
+.textoPasos {
+  color: #222668;
+  text-align: center;
+  font-size: 1.2rem;
+  justify-self: stretch;
+  margin: 10px 20px 20px 20px; }
+
+.conceptos {
+  height: 1.5fr;
+  margin: 10px 30px 10px 30px;
+  padding: 10px 30px 10px 30px;
+  justify-self: center; }
+
+.subtitulosBody {
+  color: #222668;
+  font-size: 1.7rem;
+  font-family: 'Berkshire Swash', cursive;
+  margin: 20px 15px 0 15px;
+  padding: 20px 0 0 0; }
+
+.parrafos-2 {
+  margin: 10px 15px 15px 15px;
+  padding: 10px 0px;
+  text-align: justify;
+  font-size: 1.2rem;
+  color: #222668; }
+
+/* Estilo del body*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Monserrat', sans-serif; }
+
+/* Sección Pasos*/
+.pasos {
+  background-color: #222668;
+  color: #f5f6fa;
+  font-weight: bold;
+  border-radius: 3px;
+  text-align: center; }
+
+/* Estilos Footer */
+.pie {
+  background-image: url(../img/fondo_footer_final.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.pie-2 {
+  color: #f5f6fa;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  text-align: left;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none; }
+  .pie-2 ul {
+    list-style: none; }
+
+.mis-redes {
+  display: flex;
+  flex-direction: row;
+  justify-items: space-around;
+  margin-top: 80px; }
+
+.redes {
+  width: 40px;
+  margin: 20px; }
+
+.pie-3 {
+  background: linear-gradient(90deg, #1e6c70 0%, #043667 31%, #0a1737 100%);
+  color: #f5f6fa;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  text-align: center;
+  padding: 10px; }
+
+.footer_lista {
+  list-style: none;
+  padding-top: 50px; }
+  .footer_lista a:hover {
+    color: #1f6e72; }
+
+.footer_lista_texto {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #f5f6fa; }
+
+/* Botón Obtén tu Mapa */
+.boton {
+  background-color: #1f6e72;
+  color: #f5f6fa;
+  font-weight: bold;
+  margin: 40px; }
+
+/* Botón formulario */
+.enviar {
+  display: flex;
+  justify-content: center; }
+
+.boton-enviar {
+  background-color: #002429;
+  color: #f5f6fa;
+  margin: 20px 0 60px 0; }
+
+/* Estilos encabezado */
+.mi-nav-color {
+  background-image: url(../img/fondo_header_final.jpg);
+  background-size: cover;
+  font-size: 1.2rem; }
+
+.logo_nav {
+  width: 180px; }
+
+/* Sección 1 - Carrusel de Fotos */
+.mi-carrusel {
+  margin: 30px 0; }
+
+/* Galería de Fotos */
+.contenedorFotos {
+  margin: 20px 0 50px 0;
+  padding: 25px; }
+
+/* Estilos Página "Mapas Estelares" */
+.pasosMapa {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-around;
+  margin: 0 5px 15px 5px;
+  padding: 0 5px 15px 5px;
+  text-align: center; }
+
+.numero {
+  width: 25%;
+  color: #1f6e72;
+  font-weight: bold; }
+
+.icono {
+  width: 100px;
+  margin: 0px 0 0 0;
+  padding: 20px 0 0 0; }
+
+.detallePasos {
+  width: 25%;
+  margin: 0 10px;
+  padding: 0 10px;
+  color: #222668;
+  font-size: 1.2rem; }
+
+/* Estilos página Tu Mapa y Contacto */
+.estilos {
+  border: solid 0.5px #c4c2c2;
+  border-radius: 5px; }
+
+/* Footer*/
+.footer_logo {
+  width: 150px; }

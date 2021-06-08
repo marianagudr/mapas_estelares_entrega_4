@@ -1,0 +1,73 @@
+@import "fuentes";
+@import "estructura";
+@import "boton";
+
+/* Estilos encabezado */
+
+.mi-nav-color {
+    background-image: url(../img/fondo_header_final.jpg);
+    background-size: cover;
+    font-size: 1.2rem;
+}
+
+.logo_nav{
+    width: $margen*18;
+}
+
+/* Sección 1 - Carrusel de Fotos */
+
+.mi-carrusel {
+    margin: $margen*3 0;
+}
+
+/* Galería de Fotos */
+
+.contenedorFotos {
+    margin: $margen*2 0 $margen*5 0;
+    padding: 25px;
+}
+
+/* Estilos Página "Mapas Estelares" */
+
+.pasosMapa {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    margin: 0 5px 15px 5px;
+    padding: 0 5px 15px 5px;
+    text-align: center;
+}
+
+.numero {
+    width: 25%;
+    color: $principal;
+    font-weight: bold;
+}
+
+.icono {
+    width: 100px;
+    margin: 0px 0 0 0;
+    padding: 20px 0 0 0;
+}
+
+.detallePasos {
+    width: 25%;
+    margin: 0 10px;
+    padding: 0 10px;
+    color: #222668;
+    font-size: 1.2rem;
+}
+
+/* Estilos página Tu Mapa y Contacto */
+
+.estilos {
+    border: solid 0.5px #c4c2c2;
+    border-radius: 5px;
+}
+
+/* Footer*/
+
+.footer_logo {
+    width: $margen*15;
+}

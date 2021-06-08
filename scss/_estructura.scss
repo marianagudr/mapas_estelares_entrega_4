@@ -1,0 +1,78 @@
+$margen: 10px;
+$altura: 40px;
+
+/* Estilo del body*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Monserrat', sans-serif;
+}
+
+/* Sección Pasos*/
+
+.pasos {
+    background-color: $secundario;
+    color: $tercero;
+    font-weight: bold;
+    border-radius: 3px;
+    text-align: center;
+}
+
+/* Estilos Footer */
+
+.pie {
+    background-image: url(../img/fondo_footer_final.jpg);
+    background-size: cover; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pie-2 {
+    color: $tercero;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    text-align: left;
+    padding-top: $margen;
+    margin-bottom: $margen;
+    text-decoration: none;
+    ul{
+        list-style: none;
+    }
+}
+
+.mis-redes {
+    display: flex;
+    flex-direction: row;
+    justify-items: space-around;
+    margin-top: $margen*8;
+}
+
+.redes {
+    width: 40px;
+    margin: $margen*2;
+}
+
+.pie-3 {
+    background: linear-gradient(90deg, rgba(30,108,112,1) 0%, rgba(4,54,103,1) 31%, rgba(10,23,55,1) 100%);
+    color: $tercero;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    text-align: center;
+    padding: $margen;
+}
+
+.footer_lista {
+    list-style: none;
+    padding-top: $margen*5;
+    a:hover {
+        color: $principal;
+    }
+}
+
+.footer_lista_texto {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: $tercero;   
+}

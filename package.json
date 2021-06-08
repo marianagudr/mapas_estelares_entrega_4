@@ -1,0 +1,17 @@
+{
+  "name": "el_cielo_ese_dia",
+  "version": "1.0.0",
+  "description": "Creá mapas estelares increíbles de ese momento especial y convertilos en un regalo único",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss assets/estilos.css", 
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Mariana Guevara",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}

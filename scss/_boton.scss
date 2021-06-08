@@ -1,0 +1,21 @@
+/* Botón Obtén tu Mapa */
+
+.boton {
+    background-color: $principal;
+    color: $tercero;
+    font-weight: bold;
+    margin: $margen*4;
+}
+
+/* Botón formulario */
+
+.enviar {
+    display: flex;
+    justify-content: center;
+}
+
+.boton-enviar {
+    background-color: #002429;
+    color: #f5f6fa;
+    margin: 20px 0 60px 0;
+}
