@@ -1,5 +1,4 @@
 $margen: 10px;
-$altura: 40px;
 
 /* Estilo del body*/
 
@@ -17,6 +16,12 @@ body {
     font-weight: bold;
     border-radius: 3px;
     text-align: center;
+}
+
+.mapaPasos {
+    text-align: center;
+    justify-self: stretch;
+    margin: 10px 20px 20px 20px;
 }
 
 /* Estilos Footer */
@@ -42,6 +47,14 @@ body {
     }
 }
 
+.email {
+    width: $margen*2;
+}
+
+.tele {
+    width: $margen*2;
+}
+
 .mis-redes {
     display: flex;
     flex-direction: row;
@@ -50,12 +63,13 @@ body {
 }
 
 .redes {
-    width: 40px;
+    width: $margen*4;
     margin: $margen*2;
 }
 
 .pie-3 {
     background: linear-gradient(90deg, rgba(30,108,112,1) 0%, rgba(4,54,103,1) 31%, rgba(10,23,55,1) 100%);
+    background-size: cover;
     color: $tercero;
     font-size: 1.1rem;
     font-weight: lighter;

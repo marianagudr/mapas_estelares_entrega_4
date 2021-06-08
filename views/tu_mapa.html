@@ -27,11 +27,11 @@
                         </button>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
-                                <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
-                                <a class="nav-link" href="mapas_estelares.html">MAPAS ESTELARES</a>
-                                <a class="nav-link" href="preguntas_frecuentes.html">PREGUNTAS FRECUENTES</a>
-                                <a class="nav-link active" href="tu_mapa.html">TU MAPA</a>
-                                <a class="nav-link" href="contacto.html">CONTACTO</a>
+                                <a class="nav-link nav-fuente" aria-current="page" href="../index.html">INICIO</a>
+                                <a class="nav-link nav-fuente" href="mapas_estelares.html">MAPAS ESTELARES</a>
+                                <a class="nav-link nav-fuente" href="preguntas_frecuentes.html">PREGUNTAS FRECUENTES</a>
+                                <a class="nav-link nav-fuente active" href="tu_mapa.html">TU MAPA</a>
+                                <a class="nav-link nav-fuente" href="contacto.html">CONTACTO</a>
                             </div>
                         </div>
                     </div>
@@ -43,51 +43,51 @@
     <!-- Contenido de la página -->
 
     <div class="container">
-        <div class="row mt-5">
+        <div class="row conceptos">
             <h1>Tu Mapa Estelar</h1>
             <h2 class="subtitulosBody mb-3">Ingresá tus Datos Personales</h2>
             <div>
                 <form>
                     <div class="row mb-3">
                         <label for="nombre" class="col-sm-2 col-form-label">Nombre:</label>
-                        <div class="col-6">
+                        <div class="col-lg-3 col-sm-6 col-xs-12">
                             <input type="text" class="form-control" id="nombre" name="nombre">
                         </div>
                     </div>
                     <div class="row mb-3">
                         <label for="apellido" class="col-sm-2 col-form-label">Apellido:</label>
-                        <div class="col-6">
+                        <div class="col-lg-3 col-sm-6 col-xs-12">
                             <input type="text" class="form-control" id="apellido" name="apellido">
                         </div>
                     </div>
                     <div class="row mb-3">
                         <label for="email" class="col-sm-2 col-form-label">Email:</label>
-                        <div class="col-6">
+                        <div class="col-lg-3 col-sm-6 col-xs-12">
                             <input type="text" class="form-control" id="email" name="email">
                         </div>
                     </div>
                 </form>
             </div>
-            <h2 class="subtitulosBody mb-3">Ingresá los Datos para hacer el Mapa Estelar</h2>
+            <h2 class="subtitulosBody">Ingresá los Datos para hacer el Mapa Estelar</h2>
         </div>
-        <div class="row">
+        <div class="row conceptos">
             <div>
                 <form>
                     <div class="row mb-3">
                         <label for="lugar" class="col-md-3 col-form-label">Lugar del Evento:</label>
-                        <div class="col-6">
+                        <div class="col-lg-3 col-sm-6 col-xs-12">
                             <input type="text" class="form-control" id="lugar" name="lugar">
                         </div>
                     </div>
                     <div class="row mb-3">
                         <label for="fecha" class="col-md-3 col-form-label">Fecha del Evento:</label>
-                        <div class="col-6">
+                        <div class="col-lg-3 col-sm-6 col-xs-12">
                             <input type="text" class="form-control" id="fecha" name="fecha">
                         </div>
                     </div>
                     <div class="row form-group mb-3">
                         <label for="tipoIlustracion" class="col-form-label col-md-3" >Tipo de Ilustración:</label>
-                        <div class="col-6">
+                        <div class="col-lg-3 col-sm-6 col-xs-12">
                             <select class="form-control bg-white" id="tipoIlustracion">
                                 <option>Digital</option>
                                 <option>Artesanal</option>
@@ -96,7 +96,7 @@
                     </div>
                     <div class="row form-group mb-3">
                         <label for="" class="col-form-label col-md-3">Estilo (Sólo ilustraciones digitales):</label>
-                        <div class="col-md-8 form-check-inline">
+                        <div class="col-lg-6 col-sm-6 col-xs-12 form-check-inline">
                             <label class="form-check-label">
                                 <input type="radio" class="form-check-input">
                                 <img class="estilos" src="../img/estilo_1.jpg" alt="Estilo1">
@@ -113,7 +113,7 @@
                     </div>
                     <div class="row form-group mb-3">
                         <label for="" class="col-form-label col-md-3">Color del Fondo (Sólo ilustraciones digitales):</label>
-                        <div class="col-6 form-check-inline">
+                        <div class="col-lg-6 col-sm-6 col-xs-12 form-check-inline">
                             <label class="form-check-label">
                                 <input type="radio" class="form-check-input">
                                 <img class="estilos" src="../img/muestra_fondo_4.jpg" alt="Estilo1">
@@ -142,22 +142,22 @@
                     </div>
                     <div class="row mb-3">
                         <label for="mensaje" class="col-md-3 col-form-label">Mensaje Personal:</label>
-                        <div class="col-6">
+                        <div class="col-lg-6 col-sm-6 col-xs-12">
                             <textarea class="form-control" rows="3" id="mensaje" name="mensaje"></textarea>
                         </div> 
                     </div>
-                    <div class="row form-group mb-3">
+                    <div class="row form-group">
                         <label for="tipoIlustracion" class="col-form-label col-md-3" >Formato de Entrega:</label>
-                        <div class="col-6">
+                        <div class="col-lg-3 col-sm-6 col-xs-12 mb-3">
                             <select class="form-control bg-white" id="tipoIlustracion">
                                 <option>Digital - PDF</option>
                                 <option>Impreso</option>
                             </select>
                         </div>
                     </div>
-                    <div class="row form-group mb-3">
+                    <div class="row form-group">
                         <label for="" class="col-form-label col-md-3">Tamaño (para Formato de Entrega Impreso):</label>
-                        <div class="col-6 form-check-inline">
+                        <div class="col-lg-6 col-sm-6 col-xs-12 form-check-inline">
                             <label class="form-check-label">
                                 <input type="radio" class="form-check-input" name="printSize">
                                 20x30 cm
@@ -176,9 +176,9 @@
                             </label>
                         </div>
                     </div>
-                    <div class="row form-group mb-3">
+                    <div class="row form-group">
                         <label for="" class="col-form-label col-md-3">Tamaño (para Formato de Entrega Digital):</label>
-                        <div class="col-6 form-check-inline">
+                        <div class="col-lg-6 col-sm-6 col-xs-12 form-check-inline">
                             <label class="form-check-label">
                                 <input type="radio" class="form-check-input" name="printSize">
                                 15x21 cm
@@ -210,10 +210,10 @@
     <footer>
         <div class="pie">
             <div class="pie-2">
-                <a href="../index.html"><img src="../img/logo.png" class="footer_logo" alt="Logo"></a>
+                <a href="../index.html"><img class="footer_logo" src="../img/logo.png" alt="Logo"></a>
                 <ul>
-                    <li><img src="../img/email.svg" width=20px alt="email"> info@elcieloesedia.com</li>
-                    <li><img src="../img/telefono.svg" width=20px alt="telefono"> +5491112341234</li>
+                    <li><img class="email" src="../img/email.svg" alt="email"> info@elcieloesedia.com</li>
+                    <li><img class="tele" src="../img/telefono.svg" alt="telefono"> +5491112341234</li>
                 </ul>  
             </div>
             <div class="mis-redes">

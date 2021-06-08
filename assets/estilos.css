@@ -63,6 +63,11 @@ body {
   border-radius: 3px;
   text-align: center; }
 
+.mapaPasos {
+  text-align: center;
+  justify-self: stretch;
+  margin: 10px 20px 20px 20px; }
+
 /* Estilos Footer */
 .pie {
   background-image: url(../img/fondo_footer_final.jpg);
@@ -82,6 +87,12 @@ body {
   .pie-2 ul {
     list-style: none; }
 
+.email {
+  width: 20px; }
+
+.tele {
+  width: 20px; }
+
 .mis-redes {
   display: flex;
   flex-direction: row;
@@ -94,6 +105,7 @@ body {
 
 .pie-3 {
   background: linear-gradient(90deg, #1e6c70 0%, #043667 31%, #0a1737 100%);
+  background-size: cover;
   color: #f5f6fa;
   font-size: 1.1rem;
   font-weight: lighter;
@@ -128,14 +140,99 @@ body {
   color: #f5f6fa;
   margin: 20px 0 60px 0; }
 
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .logo_nav {
+    width: 120px; }
+  .nav-fuente {
+    font-size: 0.9rem; }
+  .contenedorFotos {
+    align-items: center;
+    margin: 0;
+    padding: 0; }
+  .footer_logo {
+    width: 10px; }
+  .pie-2 {
+    font-size: 0.6rem; }
+  .email {
+    width: 8px; }
+  .tele {
+    width: 8px; }
+  .mis-redes {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column; }
+  .redes {
+    width: 20px;
+    margin: 5px; }
+  .pie-3 {
+    font-size: 0.6rem; }
+  .footer_lista {
+    padding-top: 40px; }
+  .footer_lista_texto {
+    font-size: 0.7rem; }
+  h1 {
+    font-size: 2rem;
+    margin: 10px;
+    padding: 0; }
+  .subtitulos {
+    font-size: 1.6rem;
+    margin: 10px;
+    padding: 10px 0; }
+  .parrafos {
+    font-size: 1rem;
+    margin: 10px;
+    padding: 0; }
+  .textoPasos {
+    font-size: 1rem;
+    margin: 10px; }
+  .conceptos {
+    height: 1fr;
+    margin: 10px;
+    padding: 10px; }
+  .subtitulosBody {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    padding: 10px 0;
+    text-align: center; }
+  .parrafos-2 {
+    font-size: 0.9rem;
+    margin: 10px;
+    padding: 0;
+    text-align: center; }
+  .pasosMapa {
+    margin: 10px 0;
+    padding: 0 5px; }
+  .icono {
+    width: 2px;
+    padding: 2px; }
+  .mapaPasos {
+    margin: 10px; }
+  .boton-enviar {
+    margin: 10px 0; } }
+
+/* iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .logo_nav {
+    width: 140px; }
+  .nav-fuente {
+    font-size: 0.7rem; } }
+
+/* PC */
+@media only screen and (min-width: 1024px) {
+  .nav-fuente {
+    font-size: 1rem; } }
+
 /* Estilos encabezado */
 .mi-nav-color {
   background-image: url(../img/fondo_header_final.jpg);
-  background-size: cover;
-  font-size: 1.2rem; }
+  background-size: cover; }
 
 .logo_nav {
   width: 180px; }
+
+.nav-fuente {
+  font-size: 1.1rem; }
 
 /* Sección 1 - Carrusel de Fotos */
 .mi-carrusel {
@@ -143,6 +240,10 @@ body {
 
 /* Galería de Fotos */
 .contenedorFotos {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-around;
   margin: 20px 0 50px 0;
   padding: 25px; }
 
@@ -150,28 +251,18 @@ body {
 .pasosMapa {
   display: flex;
   flex-direction: row;
-  align-content: space-around;
-  justify-content: space-around;
-  margin: 0 5px 15px 5px;
-  padding: 0 5px 15px 5px;
+  align-content: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
   text-align: center; }
-
-.numero {
-  width: 25%;
-  color: #1f6e72;
-  font-weight: bold; }
 
 .icono {
   width: 100px;
-  margin: 0px 0 0 0;
-  padding: 20px 0 0 0; }
-
-.detallePasos {
-  width: 25%;
-  margin: 0 10px;
-  padding: 0 10px;
-  color: #222668;
-  font-size: 1.2rem; }
+  align-self: center;
+  justify-self: center;
+  margin: 10px;
+  padding: 10px; }
 
 /* Estilos página Tu Mapa y Contacto */
 .estilos {

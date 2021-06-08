@@ -1,0 +1,114 @@
+/* Mobile */
+
+@media only screen and (max-width: 767px) {
+    .logo_nav{
+        width: $margen*12;
+    }
+    .nav-fuente {
+        font-size: 0.9rem;
+    }
+    .contenedorFotos {
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .footer_logo {
+        width: $margen;
+    }
+    .pie-2 {
+        font-size: 0.6rem;
+    }
+    .email{
+        width: $margen*0.8;
+    }
+    .tele{
+        width: $margen*0.8;
+    }
+    .mis-redes {
+        margin-top: $margen*4;
+        display: flex;
+        flex-direction: column;
+    }
+    .redes {
+        width: $margen*2;
+        margin: $margen/2;
+    }
+    .pie-3 {
+        font-size: 0.6rem;
+    }
+    .footer_lista {
+        padding-top: $margen*4;
+    }
+    .footer_lista_texto {
+        font-size: 0.7rem;
+    }
+    h1{
+        font-size: 2rem;
+        margin: $margen;
+        padding: 0;
+    }
+    .subtitulos {
+        font-size: 1.6rem;
+        margin: $margen;
+        padding: $margen 0;
+    }
+    .parrafos {
+        font-size: 1rem;
+        margin: $margen;
+        padding: 0;
+    }
+    .textoPasos{
+        font-size: 1rem;
+        margin: $margen;
+    }
+    .conceptos{
+        height: 1fr;
+        margin: $margen;
+        padding: $margen;
+    }
+    .subtitulosBody {
+        font-size: 1.5rem;
+        margin: $margen 0;
+        padding: $margen 0;
+        text-align: center;
+    }
+    .parrafos-2 {
+        font-size: 0.9rem;
+        margin: $margen;
+        padding: 0;
+        text-align: center;
+    }
+    .pasosMapa {
+        margin: $margen 0;
+        padding: 0 $margen/2;
+    }
+    .icono {
+        width: 2px;
+        padding: 2px;
+    }
+    .mapaPasos {
+        margin: $margen;
+    }
+    .boton-enviar {
+        margin: $margen 0;
+    }
+}
+
+/* iPad */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    .logo_nav{
+        width: $margen*14;
+    }
+    .nav-fuente {
+        font-size: 0.7rem;
+    }
+}
+
+/* PC */
+
+@media only screen and (min-width: 1024px) {
+    .nav-fuente {
+        font-size: 1rem;
+    }
+}
