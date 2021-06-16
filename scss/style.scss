@@ -2,6 +2,7 @@
 @import "estructura";
 @import "boton";
 @import "responsive";
+@import "animaciones";
 
 /* Estilos encabezado */
 
@@ -18,24 +19,80 @@
     font-size: 1.1rem;
 }
 
-/* Sección 1 - Carrusel de Fotos */
+/* Index */
 
 .mi-carrusel {
-    margin: $margen*3 0;
+    margin: 0 0 $margen*4 0;
 }
 
-/* Galería de Fotos */
+.contenedor-pasos {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    height: 180px;
+    border: solid 0.5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-bottom: $margen*3;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: $secundario;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    border-radius: 5px;
+    margin-bottom: $margen*3;
+}
 
+.text-pasos {
+    color: white;
+    font-size: 1.4rem;
+    padding: $margen*4 $margen $margen $margen*2;
+    justify-self: stretch;
+    text-align: center;
+}
+
+.numeros {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    color: $secundario;
+}
 .contenedorFotos {
     display: flex;
     flex-direction: row;
     align-content: space-around;
     justify-content: space-around;
-    margin: $margen*2 0 $margen*5 0;
-    padding: 25px;
+    margin-bottom: $margen*4;
+}
+
+.caja-fotos {
+    margin: $margen/2;
+    padding: $margen/2;
+    border: solid 0.25px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Estilos Página "Mapas Estelares" */
+
+.parrafo-foto {
+    float: right;
+    margin: $margen*7 $margen*2 $margen*2 $margen*4;
+    padding: $margen/2;
+    border: solid 0.25px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
 
 .pasosMapa {
     display: flex;
@@ -53,6 +110,17 @@
     justify-self: center;
     margin: $margen;
     padding: $margen;
+    border-radius: 5px;
+}
+
+/* Preguntas Frecuentes */
+
+.contenedorFotos2 {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    margin-top: $margen*2;
 }
 
 /* Estilos página Tu Mapa y Contacto */

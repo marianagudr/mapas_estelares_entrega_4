@@ -52,17 +52,17 @@
 
     <!-- Sección 1 - Carrusel de Fotos -->
 
-    <div class="container">
+    <div>
         <div id="carouselExampleControls" class="carousel slide mi-carrusel" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/carrusel_1.jpg" class="d-block w-100 img-fluid" alt="...">
+                    <img src="img/carrusel_final_2.jpg" class="d-block w-100 img-fluid" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/carrusel_2.jpg" class="d-block w-100 img-fluid" alt="...">
+                    <img src="img/carrusel_final_3.jpg" class="d-block w-100 img-fluid" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/carrusel_3.jpg" class="d-block w-100 img-fluid" alt="...">
+                    <img src="img/carrusel_final_1.jpg" class="d-block w-100 img-fluid" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -91,31 +91,37 @@
     <!-- Introducción al editor de Mapas Estelares -->
 
     <div class="container">
-        <div>
-            <h2 class="subtitulos">¿Cómo hacer tu propio Mapa Estelar?</h2>
-        </div>
+        <h2 class="subtitulos">¿Cómo hacer tu propio Mapa Estelar?</h2>
         <div class="container">
-            <div class="row justify-contents-space-around">
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                    <div class="pasos">Paso 1</div>
-                    <div class="textoPasos">Ingresá el lugar y la fecha del evento</div>
+            <div class="row">
+                <div class="contenedor-pasos col-lg-3 col-sm-6 col-xs-12">
+                    <p class="numeros">PASO 1</p>
+                    <div class="overlay">
+                        <div class="text-pasos">Ingresá el lugar y la fecha del evento</div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                    <div class="pasos">Paso 2</div>
-                    <div class="textoPasos">Elegí cómo quieres la ilustración y definí los detalles de la misma</div>
+                <div class="contenedor-pasos col-lg-3 col-sm-6 col-xs-12">
+                    <p class="numeros">PASO 2</p>
+                    <div class="overlay">
+                        <div class="text-pasos">Elegí cómo quieres la ilustración y definí los detalles de la misma</div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                    <div class="pasos">Paso 3</div>
-                    <div class="textoPasos">Completá los datos para realizar la compra</div>
+                <div class="contenedor-pasos col-lg-3 col-sm-6 col-xs-12">
+                    <p class="numeros">PASO 3</p>
+                    <div class="overlay">
+                        <div class="text-pasos">Completá los datos para realizar la compra</div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                    <div class="pasos">Paso 4</div>
-                    <div class="textoPasos">Recibí tu Mapa Estelar en formato digital o en formato impreso</div>
-                </div>
+                <div class="contenedor-pasos col-lg-3 col-sm-6 col-xs-12">
+                    <p class="numeros">PASO 4</p>
+                    <div class="overlay align-items-center">
+                        <div class="text-pasos">Recibí tu Mapa Estelar en formato digital o en formato impreso</div>
+                    </div>
+                </div>        
             </div>
         </div>
     </div>
-    
+
     <!-- Botón Pedí tu Mapa -->
     
     <div class="container">
@@ -129,18 +135,18 @@
     <!-- Galería de Fotos -->
     
     <div class="container">
-        <div class="row justify-items-space-around">
+        <div class="row">
             <div class="col-lg-3 col-sm-6 col-xs-12 contenedorFotos">
-                <img class="img-fluid" src="img/mockup_1.jpg" alt="Arte 1">
+                <img class="img-fluid caja-fotos anim-1" src="img/mockup_10.jpg" alt="Arte 1">
             </div>
             <div class="col-lg-3 col-sm-6 col-xs-12 contenedorFotos">
-                <img class="img-fluid" src="img/mockup_prueba_dos_cuad.jpg" alt="Arte 2">
+                <img class="img-fluid caja-fotos anim-1" src="img/mockup_1.jpg" alt="Arte 2">
             </div>
             <div class="col-lg-3 col-sm-6 col-xs-12 contenedorFotos">
-                <img class="img-fluid" src="img/mockup_4.jpg" alt="Arte 3">
+                <img class="img-fluid caja-fotos anim-1" src="img/mockup_4.jpg" alt="Arte 3">
             </div>
             <div class="col-lg-3 col-sm-6 col-xs-12 contenedorFotos">
-                <img class="img-fluid" src="img/mockup_5.jpg" alt="Arte 4">
+                <img class="img-fluid caja-fotos anim-1" src="img/mockup_5.jpg" alt="Arte 4">
             </div>
         </div>
     </div>
@@ -169,7 +175,7 @@
                 <li><a class=footer_lista_texto href="views/contacto.html">Contacto</a></li>
             </ul>
         </div>
-        <div class="pie-3">©elCieloeseDía 2021. Todos los derechos reservados</div>
+        <div class="pie-3">© elCieloeseDía 2021. Todos los derechos reservados</div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>  
 </body>

@@ -1,11 +1,11 @@
 $principal: #1f6e72;
-$secundario: #222668;
+$secundario: #001836;
 $tercero: #f5f6fa;
 
 h1 {
     color: $principal;
     font-family: 'Berkshire Swash', cursive;
-    font-size: 2.6rem;
+    font-size: 3rem;
     text-align: center;
     margin: 20px 10px;
     padding: 20px 10px;
@@ -13,9 +13,9 @@ h1 {
 .subtitulos {
     color: $principal;
     font-family: 'Berkshire Swash', cursive;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     text-align: center;
-    margin: 20px 10px;
+    margin: 30px 10px;
     padding: 20px 10px;
 }
 
@@ -35,25 +35,20 @@ h1 {
     margin: 10px 20px 20px 20px;
 }
 
-.conceptos {
-    height: 1.5fr;
-    margin: 10px 30px 10px 30px;
-    padding: 10px 30px 10px 30px;
-    justify-self: center;
-}
-
 .subtitulosBody {
     color: $secundario;
     font-size: 1.7rem;
     font-family: 'Berkshire Swash', cursive;
     margin: 20px 15px 0 15px;
     padding: 20px 0 0 0;
+    justify-self: stretch;
 }
 
 .parrafos-2 {
-    margin: 10px 15px 15px 15px;
-    padding: 10px 0px;
+    margin: 15px;
+    padding: 10px;
     text-align: justify;
     font-size: 1.2rem;
     color: $secundario;
+    justify-self: stretch;
 }

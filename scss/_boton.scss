@@ -4,7 +4,7 @@
     background-color: $principal;
     color: $tercero;
     font-weight: bold;
-    margin: $margen*4;
+    margin: $margen*5;
 }
 
 /* Botón formulario */
@@ -15,7 +15,7 @@
 }
 
 .boton-enviar {
-    background-color: #002429;
-    color: #f5f6fa;
+    background-color: $principal;
+    color: $tercero;
     margin: 20px 0 60px 0;
 }

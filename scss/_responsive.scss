@@ -7,10 +7,20 @@
     .nav-fuente {
         font-size: 0.9rem;
     }
+    .contenedor-pasos {
+        margin-bottom: $margen;
+    }
+    .overlay {
+        margin-bottom: $margen;
+    }
+    .text-pasos{
+        font-size: 0.7rem;
+    }
+    .numeros {
+        font-size: 1rem;
+    }
     .contenedorFotos {
-        align-items: center;
-        margin: 0;
-        padding: 0;
+        margin-bottom: $margen*2;
     }
     .footer_logo {
         width: $margen;
@@ -45,7 +55,7 @@
     h1{
         font-size: 2rem;
         margin: $margen;
-        padding: 0;
+        padding-top: $margen;
     }
     .subtitulos {
         font-size: 1.6rem;
@@ -61,22 +71,22 @@
         font-size: 1rem;
         margin: $margen;
     }
-    .conceptos{
-        height: 1fr;
-        margin: $margen;
-        padding: $margen;
-    }
     .subtitulosBody {
-        font-size: 1.5rem;
-        margin: $margen 0;
-        padding: $margen 0;
+        font-size: 1.2rem;
+        margin: 0 $margen;
+        padding: 0 $margen;
         text-align: center;
     }
     .parrafos-2 {
         font-size: 0.9rem;
         margin: $margen;
+        padding: $margen;
+        text-align: justify;
+    }
+    .parrafo-foto {
+        width: 90px;
+        margin: 0;
         padding: 0;
-        text-align: center;
     }
     .pasosMapa {
         margin: $margen 0;
@@ -102,6 +112,11 @@
     }
     .nav-fuente {
         font-size: 0.7rem;
+    }
+    .parrafo-foto {
+        width: 250px;
+        margin-left: $margen*10;
+        padding: $margen;
     }
 }
 
