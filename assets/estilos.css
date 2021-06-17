@@ -41,9 +41,18 @@ h1 {
   margin: 15px;
   padding: 10px;
   text-align: justify;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #001836;
   justify-self: stretch; }
+
+.parrafos-3 {
+  color: #001836;
+  font-size: 1.3rem; }
+
+.subtitulos-tu-mapa {
+  color: #001836;
+  font-size: 1.7rem;
+  font-family: 'Berkshire Swash', cursive; }
 
 /* Estilo del body*/
 body {
@@ -147,7 +156,7 @@ body {
   .overlay {
     margin-bottom: 10px; }
   .text-pasos {
-    font-size: 0.7rem; }
+    font-size: 0.9rem; }
   .numeros {
     font-size: 1rem; }
   .contenedorFotos {
@@ -182,24 +191,28 @@ body {
     margin: 10px;
     padding: 10px 0; }
   .parrafos {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: 10px;
     padding: 0; }
   .textoPasos {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: 10px; }
   .subtitulosBody {
-    font-size: 1.2rem;
-    margin: 0 10px;
+    font-size: 1.3rem;
+    margin: 10px;
     padding: 0 10px;
     text-align: center; }
   .parrafos-2 {
-    font-size: 0.9rem;
-    margin: 10px;
+    font-size: 1.2rem;
+    margin: 5px;
     padding: 10px;
     text-align: justify; }
+  .parrafos-3 {
+    font-size: 1.1rem; }
+  .subtitulos-tu-mapa {
+    text-align: center; }
   .parrafo-foto {
-    width: 90px;
+    width: 130px;
     margin: 0;
     padding: 0; }
   .pasosMapa {
@@ -314,7 +327,7 @@ body {
 /* Estilos Página "Mapas Estelares" */
 .parrafo-foto {
   float: right;
-  margin: 70px 20px 20px 40px;
+  margin: 30px 20px 10px 20px;
   padding: 5px;
   border: solid 0.25px rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2); }
