@@ -245,12 +245,12 @@ body {
 .anim-1 {
   -webkit-transform: scale(1);
   transform: scale(1);
-  transition: 0.3s ease-in-out; }
+  transition: 0.5s ease-in-out; }
 
 .anim-1:hover {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
-  transition: 0.3s ease-in-out; }
+  transition: 0.5s ease-in-out; }
 
 .contenedor-pasos:hover .overlay {
   opacity: 1; }
